@@ -26,6 +26,13 @@ It highlights edges by measuring how a pixel differs from its neighbors, often p
 
 ## 🖼️ Example Results
 
+![orginal](https://github.com/LinTom-coder/ADIP-SpatialDomainEdgeDetection/blob/main/image/astronomy1280x720.png)
+![AfterSobel](https://github.com/LinTom-coder/ADIP-SpatialDomainEdgeDetection/blob/main/image/hw4_sobel.png)
+
+If the image contains noise, the Sobel or Laplacian filter may enhance the noise, since both are sensitive to **high-frequency components**.
+![Noise](https://github.com/LinTom-coder/ADIP-SpatialDomainEdgeDetection/blob/main/image/astronomy_noise1280x720.png)
+![NoiseAfterSobel](https://github.com/LinTom-coder/ADIP-SpatialDomainEdgeDetection/blob/main/image/hw4_sobel_noise.png)
+
 ---
 
 ## 🛠️ Environment
@@ -33,3 +40,4 @@ It highlights edges by measuring how a pixel differs from its neighbors, often p
 - Language: C
 - Input: Grayscale images
 - Output: Edge-detected images using Sobel and Laplacian filters
+- (hw4_3_1 contains 4-neighbor filter, hw4_3_2 contains 8-neighbor filter, hw4_3_3 contains 0-degree Sobel filter, hw4_3_4 contains 90-degree Sobel filter, and combines results of the 0-degree Sobel filter and 90-degree Sobel filter.)
